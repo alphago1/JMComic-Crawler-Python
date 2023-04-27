@@ -35,6 +35,7 @@ jobs:
 
       - name: 压缩下载的漫画
         run: |
+          mkdir /home/runner/work/jmcomic/
           cd /home/runner/work/jmcomic/
           tar -zcvf ../下载完成的本子.tar.gz ./
 
